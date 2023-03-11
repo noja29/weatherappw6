@@ -1,0 +1,35 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.city-input {
+  display: block;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 400;
+}
+h3 {
+  font-weight: 100;
+  font-display: center;
+}
+.form-control::placeholder {
+  font-size: 0.9rem;
+  color: #aaa;
+  font-style: italic;
+}
+
+.currentLoc {
+  color: white;
+  background: #000000;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+.weatherapp {
+  border: 1px solid rgb(196, 195, 195);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 600px;
+}
